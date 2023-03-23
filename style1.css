@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f0f9;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+  color: Maroon;
+}
+
+
+section {
+  background: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 300px;
+}
+
+article {
+  background: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 200px;
+}
+
+#container {
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+main {
+  margin: 10px;
+}
+aside {
+  padding: .5rem;
+  margin: .5rem;
+  border: 1px dotted maroon;
+  color: #f6f0f9;
+}
+.social-icons   .social-icon-ytb::before {
+  background-image: url("images/icon-youtube.png");
+}
+.social-icons   .social-icon-tik::before {
+  background-image: url("images/icon-tiktok.png");
+}
